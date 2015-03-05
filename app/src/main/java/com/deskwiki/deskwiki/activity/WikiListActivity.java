@@ -45,6 +45,7 @@ public class WikiListActivity extends ActionBarActivity {
     private View prevButton;
     static int currentOffset;
     static String currentSearchTerm;
+    private View paginationBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +57,7 @@ public class WikiListActivity extends ActionBarActivity {
         resultLayout = findViewById(R.id.result_layout);
         nextButton = findViewById(R.id.next_button);
         prevButton = findViewById(R.id.prev_button);
+        paginationBox = findViewById(R.id.pagination_box);
         errorMessage = (TextView) findViewById(R.id.error_message);
         todayStory = findViewById(R.id.todays_story);
 
@@ -117,11 +119,15 @@ public class WikiListActivity extends ActionBarActivity {
                     resultLayout.setVisibility(View.GONE);
                     todayStory.setVisibility(View.GONE);
                     errorMessage.setVisibility(View.VISIBLE);
+                    return;
                 } else { //On successful result show the list
                     showList();
                     searchView.clearFocus();
                 }
                 wikiSearchListAdapter.clearAddAllItems(Arrays.asList(resp.wikiItems));
+
+                if(resp.wikiItems.length<10)
+                    nextButton.setVisibility(View.GONE);
             }
 
             @Override
@@ -170,6 +176,7 @@ public class WikiListActivity extends ActionBarActivity {
                     todayStory.setVisibility(View.VISIBLE);
                     currentOffset = 0;
                     currentSearchTerm = "";
+                    errorMessage.setVisibility(View.GONE);
                     prevButton.setVisibility(View.GONE);
                 }
                 return false;
