@@ -45,7 +45,6 @@ public class WikiListActivity extends ActionBarActivity {
     private View prevButton;
     static int currentOffset;
     static String currentSearchTerm;
-    private View paginationBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +56,6 @@ public class WikiListActivity extends ActionBarActivity {
         resultLayout = findViewById(R.id.result_layout);
         nextButton = findViewById(R.id.next_button);
         prevButton = findViewById(R.id.prev_button);
-        paginationBox = findViewById(R.id.pagination_box);
         errorMessage = (TextView) findViewById(R.id.error_message);
         todayStory = findViewById(R.id.todays_story);
 
