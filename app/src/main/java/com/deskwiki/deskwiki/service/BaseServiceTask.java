@@ -27,7 +27,9 @@ import org.apache.http.protocol.BasicHttpContext;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.io.UnsupportedEncodingException;
 import java.net.URI;
+import java.net.URLEncoder;
 import java.util.zip.GZIPInputStream;
 
 /**
@@ -86,10 +88,17 @@ public class BaseServiceTask extends AsyncTask<String, String, String> {
     @Override
     protected String doInBackground(String... params) {
         HttpRequestBase request = new HttpGet();
-        request.setURI(URI.create(serviceEndpoint
-                +params[0]
-                +"&srprop=timestamp&format=json&rawcontinue"
-                +"&sroffset="+params[1]));
+        String finalUri = null;
+        try {
+            finalUri = serviceEndpoint
+                    + URLEncoder.encode(params[0], "utf8")
+                    +"&srprop=timestamp&format=json&rawcontinue"
+                    +"&sroffset="+params[1] ;
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+
+        request.setURI(URI.create(finalUri));
         setRequestHeaders(request);
 
         HttpResponse response;
