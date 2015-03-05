@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/dibyenduroy/Development/DeskWiki/app/libs/robotium-solo-5.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="56ab8d87d966a067ee3795ee137fbd51b6581ec9">
+        <dex dex="/Users/dibyenduroy/Development/DeskWiki/app/build/intermediates/pre-dexed/debug/robotium-solo-5.2.1-313da725ca58ada54d8cbc431e964f53b526f235.jar" />
+    </item>
+    <item
+        jar="/Users/dibyenduroy/Development/DeskWiki/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/dibyenduroy/Development/DeskWiki/app/build/intermediates/pre-dexed/debug/classes-39a114fd6d6e2eded226ddf1a454a215be65169d.jar" />
+    </item>
+    <item
+        jar="/Users/dibyenduroy/Development/DeskWiki/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/dibyenduroy/Development/DeskWiki/app/build/intermediates/pre-dexed/debug/classes-3082e9f6f5550073a9bbb46d8f03a18938a546d9.jar" />
+    </item>
+    <item
+        jar="/Users/dibyenduroy/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/dibyenduroy/Development/DeskWiki/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-2f31710797d7649bad303d713b5fbbeb6be1665c.jar" />
+    </item>
+    <item
+        jar="/Users/dibyenduroy/Development/DeskWiki/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/dibyenduroy/Development/DeskWiki/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-6b3a11e766aee90110c1892b82466819f56e3f58.jar" />
+    </item>
+    <item
+        jar="/Users/dibyenduroy/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/dibyenduroy/Development/DeskWiki/app/build/intermediates/pre-dexed/debug/gson-2.2.4-0a01832f277d09a2d9ffcabb6a88c331f133b006.jar" />
+    </item>
+
+</items>

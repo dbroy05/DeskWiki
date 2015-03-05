@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DeskWiki</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Enter Search Term</string>
+    <string name="no_data_found">No result found</string>
+    <string name="main_header">Welcome to Desk Wikipedia</string>
+    <string name="search_item_title">Title:</string>
+    <string name="search_item_last_edited_date">Last Edited on:</string>
+    <string name="today_story_title">Today\'s Featured Story</string>
+    <string name="today_story_detail">HMS Bellerophon was a 74-gun third-rate ship of the line of the Royal Navy. Launched in 1786, she served mostly on blockades or convoy escort duties. Known to sailors as the \"Billy Ruffian\", she entered service on the outbreak of the French Revolutionary Wars, and took part in the Glorious First of June fleet action in 1793. Bellerophon narrowly escaped being captured by the French in 1795, saved only by the bold actions of the squadron\'s commander, Vice-Admiral Cornwallis. Detached to reinforce Rear-Admiral Nelson\'s fleet in 1798 under Admiral Jervis, she took part in the decisive defeat of a French fleet at the Battle of the Nile. At the Battle of Trafalgar Bellerophon fought a bitter engagement against Spanish and French ships, sustaining heavy casualties including the death of her captain, John Cooke. <u>Read more...</u>.</string>
+</resources>
